@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "session",
+    "baseName": "RetrospectiveManager",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "ehcache",
+    "clientFramework": "vue",
+    "clientPackageManager": "npm",
+    "clientTheme": "Cerulean",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1671361813374,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": ["RetrospectiveType", "RetrospectiveItem"],
+    "entitySuffix": "",
+    "gradleEnterpriseHost": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "languages": ["de", "en"],
+    "lastLiquibaseTimestamp": 1671361933000,
+    "messageBroker": false,
+    "nativeLanguage": "de",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus"
+      }
+    ],
+    "packageFolder": "de/svi/retrospective",
+    "packageName": "de.svi.retrospective",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": false,
+    "rememberMeKey": "95bfe5a1d79b7974887311c92f6d54cf5403aafdbd882fcd273dd1b4936e00b5a5fcae7cb1af05ce27a90851f50f283dff53",
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
